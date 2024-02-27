@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     height: 100vh;
     width: 100vw;
     justify-content: center;
@@ -9,11 +10,15 @@ body{
     background-color: hsl(240, 78%, 98%);
 }
 .heading{
+  font-family:'Montserra',sans-serif;
+  font-size:medium;
     text-align: center;
-  color: hsl(232, 13%, 33%);
+  color: hsl(233, 13%, 49%);
+    font-weight: 700;
 }
 .pricing{
-    margin-top: 50px;
+  padding: 10px;
+    margin-top: 1rem;
     display: flex;
   justify-content: center;
   align-items: center;
@@ -53,21 +58,27 @@ body{
  .d1:hover,
 .d2:hover,
 .d3:hover {
-  background-color:hsl(233, 13%, 49%);
+  background: linear-gradient(to right, rgb(159, 162, 240), rgb(108, 112, 222));
   color:aliceblue;
-  transform: scale(1.05); /* Adjust the scale factor as needed */
+  transform: scale(1.05); 
   transition: transform 0.3s ease;
 }
  .btn {
-    background-color:  hsl(233, 13%, 49%);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+  width: 100%;
+  padding: 5px 10px;
+  background: linear-gradient(to right, rgb(159, 162, 240), rgb(108, 112, 222));
+  color: #fff;
+  border: 1px solid hsl(237, 63%, 64%);
+  border-radius: 3px;
+  margin-top: 30px;
+  font-weight: 100;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
   }
   .btn:hover {
-    background-color: rgb(252, 234, 234);
-    color: hsl(240, 30%, 50%);
+    background-color: white;
+    color:hsl(232, 13%, 33%);
+    background: #fff;
   }
 
   .price {
@@ -94,7 +105,7 @@ body{
 
   .plan-change p {
     margin: 0 10px;
-    color: hsl(232, 13%, 33%);
+    color: hsl(234, 14%, 74%);
     
   }
 
@@ -103,7 +114,7 @@ body{
     display: inline-block;
     width: 60px;
     height: 30px;
-    background-color:hsl(234, 14%, 74%);
+    background: linear-gradient(to right, rgb(159, 162, 240), rgb(108, 112, 222));
     border-radius: 20px;
   }
 
