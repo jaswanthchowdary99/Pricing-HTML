@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700&display=swap");
+
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -11,7 +13,7 @@ body{
 }
 .heading{
   font-family:'Montserra',sans-serif;
-  font-size:medium;
+  font: size 10px;
     text-align: center;
   color: hsl(233, 13%, 49%);
     font-weight: 700;
