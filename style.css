@@ -60,18 +60,18 @@ body{
  .d1:hover,
 .d2:hover,
 .d3:hover {
-  background: linear-gradient(to right, rgb(159, 162, 240), rgb(108, 112, 222));
+  background: linear-gradient(to bottom, rgb(159, 162, 240), rgb(108, 112, 222));
   color:aliceblue;
   transform: scale(1.05); 
   transition: transform 0.3s ease;
 }
  .btn {
   width: 100%;
-  padding: 5px 10px;
+  padding: 10px 10px;
   background: linear-gradient(to right, rgb(159, 162, 240), rgb(108, 112, 222));
   color: #fff;
   border: 1px solid hsl(237, 63%, 64%);
-  border-radius: 3px;
+  border-radius: 5px;
   margin-top: 30px;
   font-weight: 100;
   font-size: 12px;
@@ -87,7 +87,6 @@ body{
     padding: 35px;
     font-size: 40px;
     margin-top: -30px;
-    border-bottom: 2px solid hsl(231, 8%, 83%);
     margin-top: -34px; 
 
   }
@@ -123,23 +122,26 @@ body{
   .switch input {
     display: none;
   }
+  
 
-  .slider {
+  .slider{
     position: absolute;
     content: "";
     height: 22px;
     width: 22px;
     left: 4px;
     bottom: 4px;
-    background-color: hsl(240, 30%, 96%);
+    background: hsl(240, 30%, 96%);
     border-radius: 50%;
     transition: 0.4s;
   }
 
-  .switch input:checked + .slider {
+  .switch input:checked + .slider{
     transform: translateX(30px);
+    color: #f7f2f2;
   }
-
+ 
+ 
   @media (max-width: 768px) {
     .pricing {
       flex-direction: column;
