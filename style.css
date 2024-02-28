@@ -97,7 +97,7 @@ body{
 
  
   .plan-change {
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-top: 20px;
     display: flex;
@@ -127,10 +127,10 @@ body{
   .slider {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
-    left: 2px;
-    bottom: 2px;
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    bottom: 4px;
     background-color: hsl(240, 30%, 96%);
     border-radius: 50%;
     transition: 0.4s;
