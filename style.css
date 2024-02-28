@@ -57,6 +57,9 @@ body{
     width: 200px;
     color:hsl(232, 13%, 33%);
  }
+ .d1,.d2,.d3{
+  margin: 3px;
+ }
  .d1:hover,
 .d2:hover,
 .d3:hover {
@@ -71,7 +74,7 @@ body{
   background: linear-gradient(to right, rgb(159, 162, 240), rgb(108, 112, 222));
   color: #fff;
   border: 1px solid hsl(237, 63%, 64%);
-  border-radius: 5px;
+  border-radius: 2px;
   margin-top: 30px;
   font-weight: 100;
   font-size: 12px;
@@ -145,5 +148,10 @@ body{
   @media (max-width: 768px) {
     .pricing {
       flex-direction: column;
+      
     }
+    .d1,.d2,.d3{
+      margin-top: 6px;
+    }
+
   }
